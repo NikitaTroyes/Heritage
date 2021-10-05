@@ -8,7 +8,7 @@ namespace Heritage
 {
     class Chimpanzee : Animal 
     {
-        public Chimpanzee(string name) : base(name, true) { }
+        public Chimpanzee(string name) : base(name, true, 4) { }
 
     }
 }

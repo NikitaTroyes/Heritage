@@ -10,13 +10,15 @@ namespace Heritage
     {
         protected string _specie;
         protected bool _hairy;
+        protected int _numberMembers;
 
-        public Animal (string specie, bool hairy)
+        public Animal (string specie, bool hairy, int numberMembers)
         {
             _specie = specie;
             _hairy = hairy;
-
+            _numberMembers = numberMembers;
         }
+        
         public void Numbermembers()
         {
             Console.WriteLine(_specie + " is tetrapod");

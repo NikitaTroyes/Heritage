@@ -8,7 +8,7 @@ namespace Heritage
 {
     class Lizard : Animal
     {
-        public Lizard(string name) : base(name, false) { }
+        public Lizard(string name) : base(name, false, 4) { }
 
         public override void Reproduction()
         {

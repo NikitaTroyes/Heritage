@@ -8,7 +8,7 @@ namespace Heritage
 {
     class Turtoise : Animal
     {
-        public Turtoise(string name) : base(name, false) { }
+        public Turtoise(string name) : base(name, false, 4) { }
 
         public override void Reproduction()
         {

@@ -8,7 +8,7 @@ namespace Heritage
 {
     class Human : Animal 
     {
-        public Human(string name) : base(name, true) { }
+        public Human(string name) : base(name, true, 4) { }
 
         public override void Move()
         {
